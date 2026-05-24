@@ -10,6 +10,9 @@ gem "benchmark"
 # Drivers
 gem "sqlite3"
 gem "redis", "~> 5.4"
+gem "pg"
+gem "mysql2"
+gem "aws-sdk-s3"
 
 # Deployment
 gem "puma", "~> 6.6"

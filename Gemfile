@@ -10,9 +10,6 @@ gem "benchmark"
 # Drivers
 gem "sqlite3"
 gem "redis", "~> 5.4"
-gem "pg"
-gem "mysql2"
-gem "aws-sdk-s3"
 
 # Deployment
 gem "puma", "~> 6.6"
@@ -61,3 +58,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webmock", require: false
 end
+
+gem "pg", "~> 1.6"
+
+gem "aws-sdk-s3", "~> 1.224"
